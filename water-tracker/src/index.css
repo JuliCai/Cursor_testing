@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Ensure the root fills the viewport for mobile web-app feel */
+html, body, #root {
+  height: 100%;
+}
+
+/* Smooth scrolling and subtle selection color */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.25);
+}
+
